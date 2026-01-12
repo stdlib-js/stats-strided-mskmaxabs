@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2f98c26`](https://github.com/stdlib-js/stdlib/commit/2f98c26670b9e7d7a57401953f85f0369ceff39d) - **refactor:** remove unreachable path _(by Athan Reines)_
 -   [`d3a2eff`](https://github.com/stdlib-js/stdlib/commit/d3a2eff2cb9c18a89c287cf65cb0498a5b5b6245) - **feat:** add `stats/strided/mskmaxabs` [(#9696)](https://github.com/stdlib-js/stdlib/pull/9696) _(by Sachin Pangal, Philipp Burckhardt)_
 
 </details>
@@ -34,8 +35,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 -   Sachin Pangal
 
