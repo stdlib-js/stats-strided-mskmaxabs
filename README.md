@@ -41,38 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-strided-mskmaxabs
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-mskmaxabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var mskmaxabs = require( 'path/to/vendor/umd/stats-strided-mskmaxabs/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.mskmaxabs;
-})();
-</script>
+var mskmaxabs = require( '@stdlib/stats-strided-mskmaxabs' );
 ```
 
 #### mskmaxabs( N, x, strideX, mask, strideMask )
@@ -172,15 +166,10 @@ var v = mskmaxabs.ndarray( 4, x, 2, 1, mask, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var uniform = require( '@stdlib/random-array-uniform' );
+var bernoulli = require( '@stdlib/random-array-bernoulli' );
+var mskmaxabs = require( '@stdlib/stats-strided-mskmaxabs' );
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
@@ -194,11 +183,6 @@ console.log( mask );
 
 var v = mskmaxabs( x.length, x, 1, mask, 1 );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -208,16 +192,6 @@ console.log( v );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
-
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/stats-strided/maxabs`][@stdlib/stats/strided/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats-strided/minabs`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats-strided/mskminabs`][@stdlib/stats/strided/mskminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats-strided/mskmax`][@stdlib/stats/strided/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats-strided/nanmaxabs`][@stdlib/stats/strided/nanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array, ignoring NaN values.</span>
 
 </section>
 
@@ -299,23 +273,13 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/umd
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
+[@stdlib/stats/strided/dmskmaxabs]: https://github.com/stdlib-js/stats-strided-dmskmaxabs
+
+[@stdlib/stats/strided/smskmaxabs]: https://github.com/stdlib-js/stats-strided-smskmaxabs
 
 <!-- <related-links> -->
-
-[@stdlib/stats/strided/dmskmaxabs]: https://github.com/stdlib-js/stats-strided-dmskmaxabs/tree/umd
-
-[@stdlib/stats/strided/maxabs]: https://github.com/stdlib-js/stats-strided-maxabs/tree/umd
-
-[@stdlib/stats/strided/minabs]: https://github.com/stdlib-js/stats-strided-minabs/tree/umd
-
-[@stdlib/stats/strided/mskmax]: https://github.com/stdlib-js/stats-strided-mskmax/tree/umd
-
-[@stdlib/stats/strided/mskminabs]: https://github.com/stdlib-js/stats-strided-mskminabs/tree/umd
-
-[@stdlib/stats/strided/nanmaxabs]: https://github.com/stdlib-js/stats-strided-nanmaxabs/tree/umd
-
-[@stdlib/stats/strided/smskmaxabs]: https://github.com/stdlib-js/stats-strided-smskmaxabs/tree/umd
 
 <!-- </related-links> -->
 
