@@ -193,16 +193,6 @@ console.log( v );
 
 <section class="related">
 
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/stats-strided/maxabs`][@stdlib/stats/strided/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats-strided/minabs`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats-strided/mskminabs`][@stdlib/stats/strided/mskminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats-strided/mskmax`][@stdlib/stats/strided/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats-strided/nanmaxabs`][@stdlib/stats/strided/nanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array, ignoring NaN values.</span>
-
 </section>
 
 <!-- /.related -->
@@ -285,21 +275,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-<!-- <related-links> -->
-
 [@stdlib/stats/strided/dmskmaxabs]: https://github.com/stdlib-js/stats-strided-dmskmaxabs
 
-[@stdlib/stats/strided/maxabs]: https://github.com/stdlib-js/stats-strided-maxabs
-
-[@stdlib/stats/strided/minabs]: https://github.com/stdlib-js/stats-strided-minabs
-
-[@stdlib/stats/strided/mskmax]: https://github.com/stdlib-js/stats-strided-mskmax
-
-[@stdlib/stats/strided/mskminabs]: https://github.com/stdlib-js/stats-strided-mskminabs
-
-[@stdlib/stats/strided/nanmaxabs]: https://github.com/stdlib-js/stats-strided-nanmaxabs
-
 [@stdlib/stats/strided/smskmaxabs]: https://github.com/stdlib-js/stats-strided-smskmaxabs
+
+<!-- <related-links> -->
 
 <!-- </related-links> -->
 
