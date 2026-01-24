@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`26ea808`](https://github.com/stdlib-js/stdlib/commit/26ea808b6afc4bb6db6492a9020f8325ebd2157e) - ensure browser-specific version of package has ndarray method
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`26ea808`](https://github.com/stdlib-js/stdlib/commit/26ea808b6afc4bb6db6492a9020f8325ebd2157e) - **fix:** ensure browser-specific version of package has ndarray method _(by Philipp Burckhardt)_
 -   [`95a8d60`](https://github.com/stdlib-js/stdlib/commit/95a8d60c4d73ed9df86cf640230f1874aa8be9e7) - **chore:** remove exports comment _(by Philipp Burckhardt)_
 -   [`3b73da5`](https://github.com/stdlib-js/stdlib/commit/3b73da5a3793534fa08f009722a98f96c61b0314) - **docs:** update related packages sections [(#9732)](https://github.com/stdlib-js/stdlib/pull/9732) _(by stdlib-bot, Athan Reines)_
 -   [`2f98c26`](https://github.com/stdlib-js/stdlib/commit/2f98c26670b9e7d7a57401953f85f0369ceff39d) - **refactor:** remove unreachable path _(by Athan Reines)_
