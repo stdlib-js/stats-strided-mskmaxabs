@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`31e075c`](https://github.com/stdlib-js/stdlib/commit/31e075c065f55f86226182872b987f585b489818) - **style:** remove empty line _(by Athan Reines)_
 -   [`7062ec1`](https://github.com/stdlib-js/stdlib/commit/7062ec16b2a4ebb8bc83d2460cd55e8ad09374d3) - **docs:** update copy _(by Athan Reines)_
 -   [`719e685`](https://github.com/stdlib-js/stdlib/commit/719e685eaa6460d9ded69333953019952455750f) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
 -   [`ae31fc0`](https://github.com/stdlib-js/stdlib/commit/ae31fc062e919fcbca412e037a61ae68956eada0) - **test:** update require to match implementation file _(by Philipp Burckhardt)_
