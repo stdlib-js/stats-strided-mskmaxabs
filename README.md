@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-mskmaxabs/tags). For example,
+
+```javascript
 import mskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@v0.1.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@esm/index.mjs';
 ```
 
 #### mskmaxabs( N, x, strideX, mask, strideMask )
@@ -162,7 +167,7 @@ var v = mskmaxabs.ndarray( 4, x, 2, 1, mask, 2, 1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import mskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@v0.1.0-esm/index.mjs';
+import mskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskmaxabs@esm/index.mjs';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
